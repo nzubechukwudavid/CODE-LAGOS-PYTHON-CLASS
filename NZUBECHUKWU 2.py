@@ -1,0 +1,10 @@
+print("This program tells you when you when you will be a HUNDRED years old.")
+print()
+print()
+user = str(input("please enter your name"))
+print("welcome,",user)
+current_year = 2018
+current_age = int(input("How old are you"))
+birth_year = (current_year - current_age)
+future_limit = (birth_year + 100)
+print(user,"you will be a hundred years old by the year,",future_limit)
